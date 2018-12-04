@@ -19,7 +19,28 @@
 
 .jumbotron {
   padding: 3%;
+  padding-bottom: 8%;
   margin-bottom: 0;
+}
+
+.jumbo-parallax {
+  background-image: url('/pexel-code4.jpeg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 400px;
+  // font-weight: bold;
+  // opacity: 0.5;
+}
+
+.lead {
+  padding: 5%;
+}
+
+.jumbo-p {
+  padding: 0 5% 5% 5%;
 }
 
 .landing-row {
