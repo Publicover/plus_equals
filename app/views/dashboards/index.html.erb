@@ -1,8 +1,55 @@
-<div class='container'>
-  <div class='row landing-row'>
-    <h1>Dashboards#index</h1>
+<div class='jumbotron jumbotron-fluid'>
+  <center><h2>PLUS EQUALS LOGO</h2></center>
+  <p class='lead'>We're backend experts with an eye on design</p>
+  <hr class='my4' />
+  <p>We make apps that are, above all, readable—-so they're easy to maintain
+    and update long after we're off the proejct.</p>
+  <p>Our extensive network of freelance designers, photographers, producers and
+    writers ensure your project gets exactly what it needs without the budget
+    bloat of traditional agencies.</p>
+</div>
+
+<div class='container-fluid'>
+
+  <div class='row' id='who-we-are'>
+    <h1 class='mx-auto'>WHO ARE WE?</h1>
   </div>
-  <div class='row landing-row'>
-    <p>Find me in app/views/dashboards/index.html.erb</p>
+  <div class='row'>
+    <div class='col-3 mx-auto'>
+      <div class='card'>
+        <%= image_tag("boys_porch.jpg", alt: "Jim and the boys.",
+                                        size: '150x150',
+                                        class: 'img-fluid d-block card-img-top') %>
+        <div class='card-body'>
+          <h5 class='card-title'>JIM PUBLICOVER</h5>
+          <p class='card-text'>Ruby on Rails, copy</p>
+        </div>
+      </div>
+    </div>
+    <div class='col-3 mx-auto'>
+      <div class='card'>
+        <%= image_tag('raymahl.jpg',
+                       alt: 'Raymahl',
+                       size: '150x150',
+                       class: 'img-fluid d-block card-img-top') %>
+        <div class='card-body'>
+          <h5 class='card-title'>Raymahl Sutton</h5>
+          <p class='card-text'>Ruby on Rails, Accounts</p>
+        </div>
+      </div>
+    </div>
+    <div class='col-3 mx-auto'>
+      <div class='card'>
+        <%= image_tag('customer2.jpg',
+                      alt: 'You, of course',
+                      size: '150x150',
+                      class: 'img-fluid d-block card-img-top') %>
+        <div class='card-body'>
+          <h5 class='card-title'>Our Clients</h5>
+          <p class='card-text'>Card 3 text</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
