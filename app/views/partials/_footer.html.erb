@@ -1,0 +1,19 @@
+<footer class='page-footer white'>
+  <div class='container'>
+    <div class='row center'>
+      <div class='col f-block'>
+        <h3>Contact</h3>
+        Send us an email at <%= mail_to 'accounts@plusequals.io' %>.
+      </div>
+      <div class='col f-block'>
+        <h3>Jim's links</h3>
+        See Jim's <%= link_to 'portfolio', 'https://publicoverpress.herokuapp.com/'%>
+        <br />or check him out on <%= link_to 'LinkedIn', "#{ENV['MY_LI']}" %>.
+      </div>
+      <div class='col f-block'>
+        <h3>Raymahl's links</h3>
+        See Raymahl's <%= link_to 'LinkedIn profile', "#{ENV['RAYMAHL_LI']}" %>.
+      </div>
+    </div>
+  </div>
+</footer>
