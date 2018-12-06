@@ -13,22 +13,45 @@
 
 <div class='container-fluid'>
 
-  <div class='row' id='who-we-are'>
-    <h1 class='mx-auto'>WHO ARE WE?</h1>
+
+  <div class='row title' id='who-we-are'>
+    <h1 class='mx-auto'>THE PHILOSOPHY</h1>
   </div>
+
   <div class='row'>
-    <div class='col-3 mx-auto'>
+    <div class='col big-para'>
+      <p>We build web apps. Think of it as any website that needs to get
+        information from a database, or one that needs to send automated emails.</p>
+      <p>But it's more than that. We build APIs too, which give any website the
+        ability to interface with a database.</p>
+      <p>All our projects are completed with the understanding that you want the
+        best product possible. Which includes writing code that is clean,
+        maintainable and easy for future collaborators to update.</p>
+      <p>All our designs take the back end of the app into account. We're
+        builders, not designers—but, thanks to our extensive experience as
+        freelancers, we have access to the top talent in whatever a
+        medium-to-large company could need.</p>
+    </div>
+  </div>
+
+
+<!-- <div class='card-holder'> -->
+  <div class='row bg-gray pad-top'>
+    <h1 class='mx-auto'>THE TEAM</h1>
+  </div>
+  <div class='row bg-gray' id='card-holder'>
+    <div class='col-sm-3 mx-auto d-flex'>
       <div class='card'>
         <%= image_tag("boys_porch.jpg", alt: "Jim and the boys.",
                                         size: '150x150',
                                         class: 'img-fluid d-block card-img-top') %>
         <div class='card-body'>
           <h5 class='card-title'>JIM PUBLICOVER</h5>
-          <p class='card-text'>Ruby on Rails, copy</p>
+          <p class='card-text'>Ruby on Rails, <br />Copy</p>
         </div>
       </div>
     </div>
-    <div class='col-3 mx-auto'>
+    <div class='col-sm-3 mx-auto d-flex'>
       <div class='card'>
         <%= image_tag('raymahl.jpg',
                        alt: 'Raymahl',
@@ -36,22 +59,62 @@
                        class: 'img-fluid d-block card-img-top') %>
         <div class='card-body'>
           <h5 class='card-title'>Raymahl Sutton</h5>
-          <p class='card-text'>Ruby on Rails, Accounts</p>
+          <p class='card-text'>Ruby on Rails,<br />Accounts</p>
         </div>
       </div>
     </div>
-    <div class='col-3 mx-auto'>
+    <div class='col-sm-3 mx-auto d-flex'>
       <div class='card'>
         <%= image_tag('customer2.jpg',
                       alt: 'You, of course',
                       size: '150x150',
                       class: 'img-fluid d-block card-img-top') %>
         <div class='card-body'>
-          <h5 class='card-title'>Our Clients</h5>
-          <p class='card-text'>Card 3 text</p>
+          <h5 class='card-title'>Our professional network</h5>
+          <p class='card-text'>The Triad's top talent</p>
         </div>
       </div>
     </div>
 
+    </div>
+
+  <div class='row title'>
+    <div class='col'>
+      <center>
+        <h1>THE WORK</h1>
+      </center>
+    </div>
   </div>
+  <div class='row'>
+    <div class='col big-para'>
+      <p>PLUS EQUALS has extensive experience in Ruby on Rails apps,
+        particularly in building APIs and integrating new apps into old systems.</p>
+      <p>Jim has been building open-source software—his favorite so far is the
+        API of Samuel Johnson's dictionary from 1755 (he used to be an editor,
+        so he has strong opinions about dictionaries). You can see the code
+        <%= link_to 'here', 'https://github.com/Publicover/samuel_johnson_api' %>.
+        Raymahl has been working on a startup that uses machine learning to
+        remove human error from the hiring process in any industry over at
+        <%= link_to 'applyable', 'https://www.applyable.io/' %>.</p>
+    </div>
+  </div>
+
+  <div class='row bg-gray pad-top'>
+    <div class='col'>
+      <center>
+        <h1 class='pad-bottom'>CONTACT US</h1>
+      </center>
+    </div>
+  </div>
+  <div class='row bg-gray'>
+    <div class='col pad-bottom'>
+      <center>
+        <h4>Send us an email at <%= mail_to 'accounts@plusequals.io' %>.</h4>
+      </center>
+    </div>
+  </div>
+
+
+
+
 </div>
