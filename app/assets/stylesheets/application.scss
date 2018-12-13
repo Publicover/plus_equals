@@ -135,6 +135,76 @@
   margin-bottom: 5%;
 }
 
+.client_mla {
+  background-image: url('MLA-Logo-tran.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  &:hover {
+    background-image: none;
+  }
+}
+
+.hov-hidden {
+  visibility: hidden;
+
+  // &:hover {
+  //   visibility: visible;
+  // }
+}
+
+.client_mla:hover .hov-hidden {
+  background-image: none;
+  visibility: visible;
+}
+
+.client_mla > center > p {
+  visibility: hidden;
+
+  &:hover {
+    background-color: pink;
+  }
+}
+
+.client_mla > center > p:hover {
+  background-color: pink;
+}
+
+.client_mla > center > h4 {
+  visibility: hidden;
+}
+//
+// .client_mla > center > p:hover {
+//   visibility: visible;
+//   // background-image: none;
+// }
+
+
+
+// .client_mla.h4 {
+//   visibility: hidden;
+// }
+
+.client_dash {
+  background-image: url('johnson.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.client_johnson:hover {
+  background-image: url('johnson.jpg');
+  // object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // background-size: 100%;
+  // height: 100%;
+  // background-attachment: fixed;
+  // display: inline-block;
+  background-size: cover;
+}
+
 // .card {
 //   margin-bottom: 5%;
 // }
