@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require jquery-ui
  */
 @import "bootstrap";
 
@@ -136,44 +137,102 @@
 }
 
 .client_mla {
+  // background-image: url('MLA-Logo-tran.png');
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
+  margin: 2%;
+  // opacity: 1;
+  // transition: opacity 2s;
+  position: relative;
+  // transition-delay: 2s;
+  // width: 50%;
+  // height: 100%;
+  // object-fit: cover;
+
+  // &:hover {
+  //   background-image: none;
+  //   // opacity: 0;
+  // }
+  margin-bottom: 5%;
+}
+
+.client-img {
   background-image: url('MLA-Logo-tran.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
-  &:hover {
-    background-image: none;
-  }
 }
 
 .hov-hidden {
-  visibility: hidden;
-
-  // &:hover {
-  //   visibility: visible;
-  // }
-}
-
-.client_mla:hover .hov-hidden {
-  background-image: none;
-  visibility: visible;
-}
-
-.client_mla > center > p {
-  visibility: hidden;
+  // visibility: hidden;
+  transition: opacity 1s;
+  opacity: 0;
 
   &:hover {
-    background-color: pink;
+    opacity: 1;
   }
 }
 
-.client_mla > center > p:hover {
-  background-color: pink;
-}
+// .client_mla:hover .hov-hidden {
+//   background-image: none;
+//   // visibility: visible;
+//   opacity: 1;
+// }
 
-.client_mla > center > h4 {
-  visibility: hidden;
-}
+// .client-image {
+//   // position: relative;
+//   transition: opacity 1s;
+//   opacity: 1;
+//
+//   &:hover {
+//     opacity: 0;
+//   }
+// }
+//
+// .client-text {
+//   transition: opacity 1s;
+//   opacity: 0;
+//
+//   &:hover {
+//     opacity: 1;
+//   }
+// }
+//
+// #mla-logo {
+//   width: 75%;
+//   height: 100%;
+// }
+
+
+
+// .client_mla {
+//   margin: 2%;
+//   opacity: 1;
+//   transition: opacity 2s;
+//
+//   &:hover {
+//     opacity: 0
+//   }
+// }
+
+
+
+// .client_mla > center > p {
+//   visibility: hidden;
+//
+//   &:hover {
+//     background-color: pink;
+//   }
+// }
+
+// .client_mla > center > p:hover {
+//   background-color: pink;
+// }
+//
+// .client_mla > center > h4 {
+//   visibility: hidden;
+// }
 //
 // .client_mla > center > p:hover {
 //   visibility: visible;

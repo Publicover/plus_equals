@@ -11,8 +11,61 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-ui
 //= require bootstrap
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+// $(document).on('turbolinks:load', function() {
+//   $('.bg-gray').on ({
+//     mouseenter: function() {
+//       $(this).css('background-color', 'pink');
+//     },
+//     mouseleave: function() {
+//       $(this).css('background-color', '#DCDCDC');
+//     }
+//   });
+// });
+
+$(document).on('turbolinks:load', function() {
+  // $('.client_mla').on ({
+  //   mouseenter: function() {
+  //     $(this).css('background-image', 'none');
+  //   },
+  //   mouseleave: function() {
+  //     $(this).css('background-image':'url(/MLA-Logo-tran.png)', 'background-repeat': 'no-repeat',
+  //     'background-position': 'center';
+  //     'background-size': 'contain');
+  //   }
+  // });
+  // $('.client-block').on ({
+  //   mouseenter: function() {
+  //     $(this).removeClass('client_mla');
+  //   },
+  //   mouseleave: function() {
+  //     $(this).addClass('client_mla')
+  //   }
+  // })
+
+  // this works
+  $('.client_mla').on ({
+    mouseenter: function() {
+      $(this).removeClass('client-img');
+    },
+    mouseleave: function() {
+      $(this).addClass('client-img', 750);
+    }
+  });
+
+  // this doesn't
+  // $('client_mla').on ({
+  //   mouseenter: function() {
+  //     $(this).removeClass('test-img', 5000);
+  //   },
+  //   mouseleave: function() {
+  //     $(this).addClass('test-img', 5000);
+  //   };
+  // });
+});
