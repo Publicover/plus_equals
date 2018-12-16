@@ -137,27 +137,12 @@
 }
 
 .client_mla {
-  // background-image: url('MLA-Logo-tran.png');
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: contain;
-  margin: 2%;
-  // opacity: 1;
-  // transition: opacity 2s;
+  margin: 2% 0 5% 0;
   position: relative;
-  // transition-delay: 2s;
-  // width: 50%;
-  // height: 100%;
-  // object-fit: cover;
-
-  // &:hover {
-  //   background-image: none;
-  //   // opacity: 0;
-  // }
-  margin-bottom: 5%;
+  // margin-bottom: 5%;
 }
 
-.client-img {
+.mla-img {
   background-image: url('MLA-Logo-tran.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -165,7 +150,6 @@
 }
 
 .hov-hidden {
-  // visibility: hidden;
   transition: opacity 1s;
   opacity: 0;
 
@@ -174,100 +158,28 @@
   }
 }
 
-// .client_mla:hover .hov-hidden {
-//   background-image: none;
-//   // visibility: visible;
-//   opacity: 1;
-// }
-
-// .client-image {
-//   // position: relative;
-//   transition: opacity 1s;
-//   opacity: 1;
-//
-//   &:hover {
-//     opacity: 0;
-//   }
-// }
-//
-// .client-text {
-//   transition: opacity 1s;
-//   opacity: 0;
-//
-//   &:hover {
-//     opacity: 1;
-//   }
-// }
-//
-// #mla-logo {
-//   width: 75%;
-//   height: 100%;
-// }
-
-
-
-// .client_mla {
-//   margin: 2%;
-//   opacity: 1;
-//   transition: opacity 2s;
-//
-//   &:hover {
-//     opacity: 0
-//   }
-// }
-
-
-
-// .client_mla > center > p {
-//   visibility: hidden;
-//
-//   &:hover {
-//     background-color: pink;
-//   }
-// }
-
-// .client_mla > center > p:hover {
-//   background-color: pink;
-// }
-//
-// .client_mla > center > h4 {
-//   visibility: hidden;
-// }
-//
-// .client_mla > center > p:hover {
-//   visibility: visible;
-//   // background-image: none;
-// }
-
-
-
-// .client_mla.h4 {
-//   visibility: hidden;
-// }
-
 .client_dash {
+  margin: 2% 0 5% 0;
+  position: relative;
+  // margin-bottom: 5%;
+}
+
+.dash-img {
   background-image: url('johnson.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.client_johnson:hover {
-  background-image: url('johnson.jpg');
-  // object-fit: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  // background-size: 100%;
-  // height: 100%;
-  // background-attachment: fixed;
-  // display: inline-block;
-  background-size: cover;
+.client_johnson {
+  margin: 2% 0 5% 0;
+  position: relative;
+  // margin-bottom: 5%;
 }
 
-// .card {
-//   margin-bottom: 5%;
-// }
-
-// .bottom-mrg {
-//   margin-bottom: 10%;
-// }
+.johnson-img {
+  background-image: url('johnson.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

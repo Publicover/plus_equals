@@ -52,20 +52,28 @@ $(document).on('turbolinks:load', function() {
   // this works
   $('.client_mla').on ({
     mouseenter: function() {
-      $(this).removeClass('client-img');
+      $(this).removeClass('mla-img');
     },
     mouseleave: function() {
-      $(this).addClass('client-img', 750);
+      $(this).addClass('mla-img', 750);
     }
   });
 
-  // this doesn't
-  // $('client_mla').on ({
-  //   mouseenter: function() {
-  //     $(this).removeClass('test-img', 5000);
-  //   },
-  //   mouseleave: function() {
-  //     $(this).addClass('test-img', 5000);
-  //   };
-  // });
+  $('.client_dash').on ({
+    mouseenter: function() {
+      $(this).removeClass('dash-img');
+    },
+    mouseleave: function() {
+      $(this).addClass('dash-img', 750);
+    }
+  });
+
+  $('.client_johnson').on ({
+    mouseenter: function() {
+      $(this).removeClass('johnson-img');
+    },
+    mouseleave: function() {
+      $(this).addClass('johnson-img', 750);
+    }
+  });
 });
