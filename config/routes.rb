@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
 
-  root 'dashboards#index'
+  # get 'static/index'
+  get 'dashboards/index'
+
+  root 'static#index'
 end

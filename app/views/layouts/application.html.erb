@@ -12,8 +12,8 @@
     <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, class: "alert alert-info" %>
     <% end %>
-    <%= render 'partials/header' %>
+    <%= render 'partials/header' unless @skip_header %>
     <%= yield %>
-    <%= render 'partials/footer' %>
+    <%= render 'partials/footer' unless @skip_footer %>
   </body>
 </html>
