@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
 
-  get 'one_sheets/write_email'
-
-  get 'one_sheets/send_email'
 
   # get 'static/index'
   get 'dashboards/index'
+
+  get 'one_sheets/write_email' => 'one_sheets#write_email'
+  post 'one_sheets/send_email' => 'one_sheets#send_email'
 
   root 'static#index'
 end
