@@ -1,0 +1,6 @@
+Get our one-sheet by email by entering your address below.
+
+<%= form_tag one_sheets_send_email do %>
+  <%= email_field_tag :address, nil, placeholder: "Email address" %>
+  <%= submit_tag "SEND ME AN EMAIL"%>
+<% end %>
