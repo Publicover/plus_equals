@@ -3,4 +3,9 @@ class StaticController < ApplicationController
     @skip_header = true
     @skip_footer = true
   end
+
+  def email_sent
+    @skip_header = true
+    @skip_footer = true
+  end
 end
