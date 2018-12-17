@@ -4,6 +4,6 @@ class OneSheetMailer < ApplicationMailer
     @greeting = "Hey there."
 
     attachments['test_file.txt'] = File.read('public/test_file.txt')
-    mail to: address, subject: 'My resume'
+    mail to: address, subject: 'Plus Equals one-sheet'
   end
 end
